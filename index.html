@@ -8,25 +8,25 @@
     <title>Cenaduría Ceyli</title>
 </head>
 <body>
-    <header class="header">
+    <header class="bg-gradient header">
         <p class="header-title">Ceyli</p>
         <nav>
             <ul>
                 <li><a href="#">Menú</a></li>
-                <li><a href="#">Información</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#about">Información</a></li>
+                <li><a href="#contact">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <div class="main-title-container">
             <h1 class="main-title">Cenaduría <br> Ceyli</h1>
-            <a class="menu-btn" href="#">Ver menú</a>
+            <a class="menu-btn bg-gradient" href="#">Ver menú</a>
         </div>
 
         <img class="logo" src="./assests/images/logo.webp" alt="">
 
-        <div class="about">
+        <div id="about" class="about bg-gradient">
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1848.6887077453187!2d-102.26982145182467!3d22.07339898197004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8429e344f6137827%3A0x3c8ea251e67eded5!2sCenaduria%20CEYLI!5e0!3m2!1ses-419!2smx!4v1612625520107!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="about-info">
                 <p class="about-title">Visítanos</p>
@@ -36,9 +36,20 @@
             </div>
         </div>
 
-    </main>
-    <footer>
+        <div id="contact" class="contact-container">
+            <div class="contact bg-gradient">
+                <p class="about-title">Contacto</p>
+                <a class="email-btn" href="mailto:ceyli.cen@gmail.com">Enviar e-mail</a>
+                <a class="call-btn" href="tel:+524659674064">Llamar</a>
+            </div>
+        </div>
 
+    </main>
+    <footer class="bg-gradient">
+        <p>&copy; 2021 Cenaduría Ceyli</p>
+        <p>Calle Uruguay #109 fraccionamiento Panamericano, <br>
+            San Francisco de los Romo, Aguascalientes, México. <br>
+            Tel. 4659674064</p>
     </footer>
 </body>
 </html>
