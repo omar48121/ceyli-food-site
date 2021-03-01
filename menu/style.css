@@ -1,0 +1,48 @@
+.items-container {
+    width: 100%;
+    color: #690500;
+    border-radius: 50px;
+    padding: 40px;
+}
+.menu-title {
+    font-size: 2em;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.item-image {
+    border-radius: 20px;
+}
+.item-name {
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1em;
+}
+.item-description {
+    color: #000;
+    padding-top: 1em;
+}
+.item-price {
+    padding-top: 1em;
+    font-weight: bold;
+}
+.drinks-container {
+    --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1.5rem;
+}
+.dishes-container {
+    --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1.5rem;
+}
+.desserts-container {
+    --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1.5rem;
+}
