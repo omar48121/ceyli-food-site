@@ -31,6 +31,7 @@ html {
     justify-content: space-between;
     align-items: center;
     border-radius: 50px;
+    margin-top: 10px;
 }
 nav > ul {
     list-style: none;
@@ -137,4 +138,8 @@ footer {
     align-items: center;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
+}
+/* Media queries */
+@media screen and (max-width: 375px) {
+    
 }
