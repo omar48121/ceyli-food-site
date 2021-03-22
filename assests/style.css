@@ -149,12 +149,34 @@ footer {
     }
     .main-title, .logo {
         margin-top: 12vh;
+        font-size: 2.5em;
     }
     .menu-btn {
         position: relative;
         top: 10px;
     }
+    .about-title {
+        font-size: 1.6em;
+    }
+    .about-text {
+        font-size: 1rem;
+    }
     nav > ul {
         display: none;
+    }
+    .about {
+        display: initial;
+        padding: 0.8em;
+        padding-bottom: 3em;
+        font-size: 1rem;
+    }
+    .about-info {
+        display: initial;
+    }
+    .map {
+        width: 100%;
+    }
+    .contact-container {
+        font-size: 1rem;
     }
 }
