@@ -141,5 +141,20 @@ footer {
 }
 /* Media queries */
 @media screen and (max-width: 375px) {
-    
+    main {
+        padding: 0;
+    }
+    .header-title {
+        margin-left: 5vh;
+    }
+    .main-title, .logo {
+        margin-top: 12vh;
+    }
+    .menu-btn {
+        position: relative;
+        top: 10px;
+    }
+    nav > ul {
+        display: none;
+    }
 }
