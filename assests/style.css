@@ -44,6 +44,9 @@ nav > ul > li > a {
     font-weight: bold;
     color: #690500;
 }
+nav > ul > li > a:hover {
+    color: #990500;
+}
 .header-title {
     margin-left: 10vh;
     font-family: sail, serif;
@@ -72,12 +75,15 @@ main {
     width: 30%;
 }
 .menu-btn {
-    background-color: #fff;
     color: #690500;
     border-radius: 50px;
     padding: 10px 15px;
     font-weight: bold;
     font-size: 1.3em;
+}
+.menu-btn:hover {
+    color: #990500;
+    background: #ffe;
 }
 .about {
     display: block;
@@ -130,6 +136,9 @@ main {
     border-radius: 50px;
     padding: 10px 15px;
 }
+.email-btn:hover, .call-btn:hover {
+    background-color: #990500;
+}
 footer {
     padding: 0 50px;
     color: #690500;
@@ -139,6 +148,7 @@ footer {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
 }
+
 /* Media queries */
 @media screen and (max-width: 375px) {
     main {
@@ -178,5 +188,10 @@ footer {
     }
     .contact-container {
         font-size: 1rem;
+    }
+    footer {
+        margin-top: 2em;
+        padding: 0 0.5em;
+        text-align: center;
     }
 }
