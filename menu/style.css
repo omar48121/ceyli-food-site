@@ -28,20 +28,8 @@
     padding-top: 1em;
     font-weight: bold;
 }
-.drinks-container {
-    --auto-grid-min-size: 16rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1.5rem;
-}
-.dishes-container {
-    --auto-grid-min-size: 16rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
-  grid-gap: 1.5rem;
-}
-.desserts-container {
-    --auto-grid-min-size: 16rem;
+.drinks-container, .dishes-container, .desserts-container {
+    --auto-grid-min-size: 10rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-gap: 1.5rem;
